@@ -3,7 +3,7 @@ const initialState = {
   currentProduct: null,
 };
 
-const MyReducer = (state = initialState, action) => {
+const productReducer = (state = initialState, action) => {
   if (action.type === "update-product-list") {
     return {
       ...state,
@@ -12,4 +12,4 @@ const MyReducer = (state = initialState, action) => {
   } else return state;
 };
 
-export default MyReducer;
+export default productReducer;

@@ -23,7 +23,7 @@ const ProductList = () => {
         dispatch(setProductListStore(response.data));
       })
       .catch((error) => {});
-  }, [reduxStore.productList]);
+  }, []);
 
   const seeDetails = (id) => {
     history.push(`/product-details/${id}`);

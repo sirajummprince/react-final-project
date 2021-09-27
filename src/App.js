@@ -44,7 +44,7 @@ const App = () => {
       <header justifyContent={"center"}>
         <Link to="/">Home</Link>
         {/* <Link to="/product-list">Product List</Link> */}
-        <Link to="/product-details">Product Details</Link>
+        {/* <Link to="/product-details">Product Details</Link> */}
         <Link to="/login">Login</Link>
         {/* <Link to="/signup">Signup</Link> */}
       </header>
